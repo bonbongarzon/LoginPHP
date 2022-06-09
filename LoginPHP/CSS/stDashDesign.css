@@ -1,0 +1,411 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+
+}
+body::-webkit-scrollbar {
+    width: 10px;
+
+
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+    border-radius: 10px;
+  }
+   
+
+body {
+    background-color: #ffffff;
+}
+
+nav {
+    background-color: #195905;
+    color: black;
+    padding: 10px;
+    height: auto;
+}
+
+.logo-nav {
+    padding: 0px 100px;
+    height: 30px;
+
+}
+
+nav ul li:first-child {
+    display: flex;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center
+}
+
+
+
+nav ul li a {
+    color: white;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+
+.user-profile {
+    padding: 20px;
+}
+
+.st_prfl_main {
+    width: 100%;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 64px rgba(0, 0, 0, 0.1);
+    border-radius: 28px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.st_prfl_cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.st_title {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.st_prfl_cont h3 {
+    text-align: center;
+    letter-spacing: 0.04em;
+    font-size: 11pt;
+}
+
+.st_location {
+    font-weight: 600;
+    font-size: 8pt;margin: 0px 10px;
+    text-align: center;
+}
+
+.st_title p {
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 600;
+    font-size: 9pt;
+}
+
+.profilepic {
+    border-radius: 20px;
+    height: 100px;
+}
+
+.st_location_cont {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+
+}
+
+/* .st_location_cont img {
+    width: 10%;
+    margin: 10px;
+} */
+
+.st_course_number {
+    display: flex;
+    flex-direction: row;
+}
+
+.crs_tab,
+.st_number_tab {
+    width: 50%;
+    background: rgba(234, 234, 234, 0.3);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.crs_tab p {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+    font-size: 11px;
+    color: #195905;
+}
+
+.st_number_tab p {
+    text-align: center;
+    font-weight: 600;
+    font-size: 11px;
+    color: black;
+}
+
+.info_me {
+    text-align: justify;
+    letter-spacing: 0.04em;
+    padding: 20px;
+    color: #000000;
+}
+
+.info_me p {
+    font-size: 7pt;
+}
+
+.greetings {
+    margin: 10px;
+    padding: 20px 40px;
+    background: #ffffff;
+    box-shadow: 0px 0px 64px rgba(0, 0, 0, 0.1);
+    /* border-radius: 100px 0px 0px 100px; */
+}
+
+.greetings h1 {
+    font-weight: 600;
+    font-size: 22pt;
+}
+
+.subject-tab {
+    margin: 10px;
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 64px rgba(0, 0, 0, 0.1);
+    /* border-radius: 53px; */
+}
+
+.subject-tab p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18pt;
+    line-height: 112.5%;
+}
+
+.subject-table {
+    display: flex;
+    justify-content: center
+}
+
+.subject-table table {
+    width: 100%;
+}
+
+.subject-table,
+td {
+    padding: 15px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 10pt;
+    line-height: 112.5%;
+}
+
+
+.subject-table tr:nth-child(odd) {
+    background-color: #19590527;
+}
+
+.subject-table th {
+    border-bottom: 1px solid #C4C4C4;
+    font-weight: 400;
+    font-size: 11pt;
+    background-color: #ffffff;
+    padding: 10px 30px;
+    color: #686868;
+    ;
+}
+
+.nav-account {
+    width: 150px;
+    padding: 5px 20px;
+    background-color: #FCCB44;
+    border-radius: 35px;
+    text-align: center;
+    color: #000000;
+    font-weight: 600;
+}
+
+.nav-account:hover {
+    width: 170px;
+    padding: 5px 40px;
+    transition: 0.2s;
+    background-color: #ffffff;
+}
+
+/* EDIT MY PROFILE */
+
+.eMyPrfl-body {
+    padding: 50px 100px;
+}
+
+.EMyProfile {
+    background-color: #195905;
+    padding: 5px 40px;
+    font-weight: 400;
+    font-size: 11px;
+    color: white;
+    border-radius: 42px;
+}
+
+.EMyProfile:hover {
+    background-color: #ffffff;
+    border: 2px solid #195905;
+    color: #195905;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.myProfilePage {
+    padding: 25px 100px;
+    width: 100%;
+}
+
+.bullet1 {
+    display: flex;
+    margin: 30px 0px;
+}
+
+.bullet1 h1 {
+    font-weight: 400;
+}
+
+.bullet1 span {
+    margin-right: 20px;
+}
+
+.prfl-basic {
+    padding: 20px 75px;
+    display: flex;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.356);
+
+
+
+
+}
+
+.nameset {
+    margin: 0px 50px;
+    width: 100% auto;
+}
+
+.nameset h1 {
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.nameset-greet {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height */
+
+    letter-spacing: 0.04em;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.prfl-pic {
+
+    width: 144px;
+    height: 144px;
+    border-radius: 10px;
+}
+
+.title-name-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.title-name-btn a {
+    text-decoration: none;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 5px 30px;
+    border-radius: 20px;
+    font-size: 10pt;
+}
+
+.title-name-btn a:hover {
+    text-decoration: none;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    padding: 5px 40px;
+    transition: 0.2s;
+}
+
+.acc-info {
+    /* background-color: #195905; */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.356);
+
+}
+
+.minitext td {
+    color: gray;
+    font-size: 8pt;
+}
+
+.acc-info h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.acc-info table {
+    text-align: left;
+    margin: 20px 100px;
+}
+
+.names td {
+    text-align: center;
+}
+
+.acc-info td {
+    /* background-color: #FCCB44; */
+    text-align: left;
+}
+
+.acc-info th {
+
+    /* background-color: #ffffff; */
+    padding: 0px 20px;
+}
+
+.acc-info input,
+select {
+    width: 100%;
+}
+
+.editprflsubbtn {
+    color: #FFFFFF;
+    background-color: #195905;
+    text-decoration: none;
+    border-style: none;
+    padding: 20px;
+}
+
+
+
