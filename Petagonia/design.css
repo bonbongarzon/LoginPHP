@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+
+    font-family: Inter;
+}
+
+.main-header {
+    background-color: #F5F2EA;
+}
+
+.appoint-header {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+nav {
+    width: 100%;
+    display: flex;
+    padding: 0px 50px;
+    justify-content: space-between;
+    font-family: 'Crimson Text', serif;
+    height: 100px;
+    align-items: center;
+    z-index: 1000;
+    box-sizing: border-box;
+
+
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    padding: 5px 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 11pt;
+}
+
+.buttonheader a {
+    padding: 10px 20px;
+    background-color: #FDC886;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 11pt;
+}
+
+
+.logo-contA a {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #515151;
+
+}
+
+.logo-placeA {
+    width: 150px;
+    padding: 20px 0px;
+    border-bottom: solid black 2px;
+}
+
+.logo-placeA span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+
+    color: #000000;
+}
+
+.first-section {
+    height: 600px;
+    width: 100%;
+    background-color: #F5F2EA;
+    background-image: url(assets/bgTwo.svg);
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: center;
+    background-position-y: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.loginform {
+    background-color: white;
+    width: 330px;
+    height: 450px;
+    box-shadow: 0px 4px 34px -10px rgba(0, 0, 0, 0.25);
+    border-radius: 28px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    text-align: center;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.loginform h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 39px;
+    color: #000000;
+}
+
+.loginform p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #777777;
+
+}
+
+
+.loginform input {
+    padding: 10px;
+    border: solid 1px #77777741;
+    border-radius: 5px;
+}
+
+.loginform span {
+    text-align: left;
+    color: #777777;
+    font-size: 9pt;
+    font-weight: 400;
+}
+
+.loginform button {
+    padding: 10px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #FDC886;
+    border: none;
+    border-radius: 5px;
+    margin: 30px 0px;
+}
+
+.loginform .stateA {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    color: #777777;
+}
+
+.loginform .stateA a {
+    text-decoration: none;
+    color: rgb(17, 17, 17);
+}
+
+
+.signupform {
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    box-shadow: 0px 4px 34px -10px rgba(0, 0, 0, 0.25);
+    border-radius: 28px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    text-align: center;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.signupform h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 39px;
+    color: #000000;
+}
+
+.signupform p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #777777;
+
+}
+
+
+.signupform input {
+    padding: 10px;
+    border: solid 1px #77777741;
+    border-radius: 5px;
+}
+
+.signupform span {
+    text-align: left;
+    color: #777777;
+    font-size: 9pt;
+    font-weight: 400;
+}
+
+.signupform button {
+    padding: 10px;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #FDC886;
+    border: none;
+    border-radius: 5px;
+    margin: 30px 0px;
+}
+
+.signupform .stateA {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    color: #777777;
+}
+
+.signupform .stateA a {
+    text-decoration: none;
+    color: rgb(17, 17, 17);
+}
+
+
+.appoint-main-sect {
+    border-top: solid yellow 5px;
+    height: 800px;
+
+
+}
+
+.main-cont-app {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.main-cont-app .form-cont {
+    width: 40%
+}
+
+.main-logo {
+    padding: 50px;
+}
+
+.main-logo a {
+    font-family: Inter;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000000;
+    position: fixed;
+    list-style: circle;
+    background-color: white;
+}
+
+.image-cont {
+    background-image: url(assets/bgCaT.png);
+    width: 60%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: -100px;
+    background-position-y: -50px;
+}
+
+.mini-form {
+    padding: 25px 100px;
+}
+
+.mini-form h1 {
+    font-size: 24pt;
+}
+
+.mini-form p {
+    font-size: 15px;
+}
+
+.mini-form form {
+    height: 100% auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 0px
+}
+
+.mini-form form input {
+    border: none;
+    padding: 10px;
+    border-bottom: solid 1pt rgba(128, 128, 128, 0.397);
+    margin: 5px 0px;
+}
+
+.mini-form form label {
+    font-size: 10pt;
+    padding: 5px;
+    font-weight: 500;
+
+}
+
+.mini-form form div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center
+}
+
+.mini-form form .birthdayplace input {
+    width: 100%;
+    color: #515151;
+}
+
+.mini-form form .birthdayplace label {
+    color: #777777;
+}
+
+.mini-form form textarea {
+    padding: 5px;
+    border: solid 1pt rgba(128, 128, 128, 0.308);
+}
+
+.mini-form form textarea:placeholder-shown {
+    color: #777777;
+    font-weight: 600;
+}
+
+.mini-form form button {
+    background-color: rgb(37, 37, 61);
+    color: white;
+    padding: 10px;
+    margin: 30px 0px;
+    border: none;
+}
+
+
+.main-cont-app .form-cont-pethealth {
+    width: 60%
+}
+
+.genderplace input {
+    width: none;
+}
+
+.genderplace label {
+    width: 100%;
+    color: #777777;
+}
+
+.pethealth-inner {
+    display: flex;
+}
+
+
+.owner-inner {
+    display: flex;
+}
+.pethealth-inner label {
+    width: 40%;
+}
+
+.pethealth-inner select {
+    width: 100%;
+    padding: 5px;
+    margin: 10px;
+}
+
+.pethealth-inner input{width: 100%;}
+.owner-inner input{width: 45%;}
+
+.pethealth-inner .num{width: 40%;}
+
+.appoint {
+    background-color: #F4FDFC;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+
+.main-form-cont {
+    margin-top: 100px;
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0px 4px 34px -10px rgba(0, 0, 0, 0.25);
+}
+
+.petInfo-cont{display: flex;}
+
+

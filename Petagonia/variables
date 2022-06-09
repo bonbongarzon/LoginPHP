@@ -1,0 +1,52 @@
+SESSION VARIABLE
+
+$_SESSION['username']
+$_SESSION['petPronounsA']
+$_SESSION['petPronounsA']
+$_SESSION['petPronounsA']
+$_SESSION['petPronounsB']
+$_SESSION['petname']
+$_SESSION['petbreed']
+ $_SESSION['petbdate']
+ $_SESSION['concern']
+     $_SESSION['Distemper'] 
+    $_SESSION['Rabies'] 
+    $_SESSION['Bordatella'] 
+    $_SESSION['vetname'] 
+    $_SESSION['vetcontact']
+    $_SESSION['firstname']
+$_SESSION['lastname']
+$_SESSION['ownercontact']
+$_SESSION['ownderAddress']
+
+
+
+echo $_SESSION['username']
+echo $_SESSION['petPronounsA']
+echo $_SESSION['petPronounsA']
+echo $_SESSION['petPronounsA']
+echo $_SESSION['petPronounsB']
+echo $_SESSION['petname']
+echo $_SESSION['petbreed']
+ echo $_SESSION['petbdate']
+ echo $_SESSION['concern']
+    echo $_SESSION['Distemper'] 
+    echo $_SESSION['Rabies'] 
+    echo $_SESSION['Bordatella'] 
+    echo $_SESSION['vetname'] 
+    echo $_SESSION['vetcontact']
+    echo $_SESSION['firstname']
+echo $_SESSION['lastname']
+echo $_SESSION['ownercontact']
+echo $_SESSION['ownderAddress']
+
+
+
+'$final_petname','$final_petbreed ','$final_petGender', 
+'$final_petbdate ','$final_concern ','$final_Distemper,''$final_Rabies','$final_Bordatella','$final_vetname','$final_vetcontact'
+
+//Owners Information
+$final_firstname = $_SESSION['firstname'];
+$final_lastname = $_SESSION['lastname'];
+$final_ownercontact =   $_SESSION['ownercontact'];
+$final_ownderAddress =   $_SESSION['ownderAddress'];
